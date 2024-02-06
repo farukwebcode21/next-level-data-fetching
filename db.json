@@ -1,0 +1,84 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "A Day in the Wilderness",
+      "description": "Spent a peaceful day surrounded by nature, exploring hidden trails and enjoying the serenity of the forest.",
+      "like": 120,
+      "image": "wilderness_day_image.jpg",
+      "author": "Alex Turner",
+      "postDate": "2024-02-06",
+      "comment": "Nature's wonders never cease to amaze me. The rustling leaves and birdsong created a symphony of tranquility."
+    },
+    {
+      "id": 2,
+      "title": "Culinary Adventure",
+      "description": "Embarked on a culinary adventure, savoring unique flavors and textures in a journey through diverse cuisines.",
+      "like": 180,
+      "image": "culinary_adventure_image.jpg",
+      "author": "Emily White",
+      "postDate": "2024-02-05",
+      "comment": "Each bite was a revelation of flavors! A gastronomic journey that left my taste buds dancing with joy."
+    },
+    {
+      "id": 3,
+      "title": "Tech Marvels Unveiled",
+      "description": "Witnessed the unveiling of cutting-edge technological marvels at a futuristic expo, sparking awe and excitement.",
+      "like": 200,
+      "image": "tech_marvels_image.jpg",
+      "author": "Chris Johnson",
+      "postDate": "2024-02-04",
+      "comment": "The tech innovations showcased were mind-blowing! The future is here, and it's incredibly exciting."
+    },
+    {
+      "id": 4,
+      "title": "Fitness Triumph",
+      "description": "Celebrated a significant fitness triumph, surpassing personal goals and embracing a healthier, stronger self.",
+      "like": 150,
+      "image": "fitness_triumph_image.jpg",
+      "author": "Sophie Davis",
+      "postDate": "2024-02-03",
+      "comment": "Achieving this fitness milestone has not only transformed my body but also my mindset. Hard work pays off!"
+    },
+    {
+      "id": 5,
+      "title": "Serenity in Nature's Embrace",
+      "description": "Found inner peace amidst nature's embrace, with towering trees and the gentle melody of a flowing stream.",
+      "like": 160,
+      "image": "nature_embrace_image.jpg",
+      "author": "Jake Smith",
+      "postDate": "2024-02-02",
+      "comment": "Nature has a magical way of calming the soul. The rustling leaves and the babbling brook were pure bliss."
+    },
+    {
+      "id": 6,
+      "title": "Literary Journey",
+      "description": "Embarked on a literary journey, exploring distant worlds and diverse characters through the pages of a captivating novel.",
+      "like": 210,
+      "image": "literary_journey_image.jpg",
+      "author": "Emma Robinson",
+      "postDate": "2024-02-01",
+      "comment": "This book took me on an incredible journey of emotions. A literary escape that I won't soon forget."
+    },
+    {
+      "id": 7,
+      "title": "City Lights Magic",
+      "description": "Marvelled at the enchanting city lights, a dazzling display of urban magic under the night sky.",
+      "like": 190,
+      "image": "city_lights_magic_image.jpg",
+      "author": "Michael Anderson",
+      "postDate": "2024-01-31",
+      "comment": "The city lights created a mesmerizing tapestry against the night sky. A magical experience in the heart of the urban jungle."
+    },
+    {
+      "id": 8,
+      "title": "Artistic Expression Unveiled",
+      "description": "Witnessed a captivating display of artistic expression at an avant-garde exhibition, exploring diverse forms of creativity.",
+      "like": 170,
+      "image": "artistic_expression_image.jpg",
+      "author": "Grace Miller",
+      "postDate": "2024-01-30",
+      "comment": "The artists' expressions were truly thought-provoking. Each piece told a unique story, leaving a lasting impression."
+    }
+  ]
+}
