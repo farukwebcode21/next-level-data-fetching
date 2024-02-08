@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const PostsPage = async () => {
   const res = await fetch("http://localhost:5000/posts", {
     cache: "no-store",
@@ -27,7 +29,7 @@ const PostsPage = async () => {
             <div className="card-actions justify-end">
               <div className="btn btn-success w-40">Like:{post.like}</div>
               <div className="py-3 px-3 border bg-red-500 text-white">
-                See More
+                <Link href={`posts/${post.id}`}>See More</Link>
               </div>
             </div>
           </div>
