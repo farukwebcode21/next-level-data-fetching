@@ -1,7 +1,9 @@
 import React from "react";
 
+
+
 const PostDetailPage = async ({ params }) => {
-  //   console.log(params.postId);
+  console.log(params.postId);
   const res = await fetch(`http://localhost:5000/posts/${params.postId}`);
   const post = await res.json();
   return (

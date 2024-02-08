@@ -1,17 +1,23 @@
 import Link from "next/link";
 
-const PostsPage = async () => {
+const getPosts = async () => {
   const res = await fetch("http://localhost:5000/posts", {
     cache: "no-store",
+    next: { revalidate: 20 },
   });
-  const posts = await res.json();
+  if (!res.ok) throw new Error("Failed to fetch posts ");
+  return res.json();
+};
+
+const PostsPage = async () => {
+  const posts = await getPosts();
 
   return (
     <div className="w-full mx-auto">
       <h1 className="text-center py-4 text-2xl font-bold uppercase text-green-600 underline">
-        Total Posts:{posts.length}
+        Total Posts:{posts.slice(0, 6).length}
       </h1>
-      {posts.map((post) => (
+      {posts.slice(0, 6).map((post) => (
         <div
           key={post.id}
           className=" w-[70%] card mx-auto bg-gray-200-100 shadow-xl py-2"
